@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 600px;
+}
+body {
+    background-color: #1f2937;
+    width: 550px;
+    height: 550px;
+    color: #fff;
+    text-align: center;    
+}
+input{
+    width: 250px;
+    border: 1px;
+    border: none;
+}
+.input-section {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(
+  145deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(253deg 94% 20%) 21%,
+  hsl(259deg 86% 21%) 33%,
+  hsl(263deg 76% 22%) 42%,
+  hsl(266deg 67% 23%) 49%,
+  hsl(269deg 59% 24%) 55%,
+  hsl(272deg 52% 25%) 61%,
+  hsl(275deg 45% 26%) 67%,
+  hsl(278deg 39% 27%) 74%,
+  hsl(280deg 33% 28%) 83%,
+  hsl(283deg 28% 29%) 100%
+);
+    height: 50%;
+  padding-top: 30px;
+  
+}
+#input-value {
+  background-color: transparent; 
+  text-align: center;
+  opacity: 50%;
+  margin-top: 30px;
+  font-size : 60px;
+  color: #d3D3D3;
+  }
+
+.dark-section {
+  background-color: #212329;
+  color: #d3D3D3;
+  padding-top: 50px;
+  padding-bottom : 40px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dark-section h3 {
+  color: #fff;
+  font-weight: 300;
+}

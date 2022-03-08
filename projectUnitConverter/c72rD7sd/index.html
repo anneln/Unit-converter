@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class='input-section'>
+            <h1>Metric/Imperial unit conversion</h1>
+            <input type= "text" id="input-value"  value='1' onchange="updateValue(this.value)">
+            </input>
+        </div>
+        <div class='dark-section'>
+          <div id= "length">
+            <h3>Length (Meter/feet)</h3>
+            <span id= "result-length"></span>
+          </div>
+          <div id= "volume">
+            <h3>Volume (Liter/Gallons)</h3>
+            <p id= "result-volume"></p>
+          </div>
+          <div id= "mass">
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p id= "result-mass"></p>
+          </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
